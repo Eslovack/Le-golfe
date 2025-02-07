@@ -1,0 +1,617 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 8081 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Aluno/Downloads/Le-golfe/Le golfe
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64424
+Successfully changed project path to: C:/Users/Aluno/Downloads/Le-golfe/Le golfe
+C:/Users/Aluno/Downloads/Le-golfe/Le golfe
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9552] Host "[IP] 10.61.6.52 [Port] 0 [Flags] 2 [Guid] 4093342179 [EditorId] 4093342179 [Version] 1048832 [Id] WindowsEditor(7,GAS-6A3-770749) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9552] Host "[IP] 10.61.6.52 [Port] 0 [Flags] 2 [Guid] 4093342179 [EditorId] 4093342179 [Version] 1048832 [Id] WindowsEditor(7,GAS-6A3-770749) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 185.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Aluno/Downloads/Le-golfe/Le golfe/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 530 (ID=0x1912)
+    Vendor:   Intel
+    VRAM:     4040 MB
+    Driver:   31.0.101.2125
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014401 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 360 ms
+Refreshing native plugins compatible for Editor in 106.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1351ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1055ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (754ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (469ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008639 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Aluno\Downloads\Le-golfe\Le golfe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Aluno\Downloads\Le-golfe\Le golfe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1463ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1139ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (426ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.1 KB). Loaded Objects now: 3516.
+Memory consumption went from 108.0 MB to 107.9 MB.
+Total: 4.629100 ms (FindLiveObjects: 0.376400 ms CreateObjectMapping: 0.296100 ms MarkObjects: 3.853300 ms  DeleteObjects: 0.101900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3323.815970 seconds.
+  path: Assets/Objects/MiniGolfKit/castle.obj
+  artifactKey: Guid(1ac8a4985d8bf1e46a6344c44890367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/castle.obj using Guid(1ac8a4985d8bf1e46a6344c44890367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a243757604a8bd795abea08edf3757') in 0.327759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Objects/MiniGolfKit/ball-red.obj
+  artifactKey: Guid(d7f5236a2279e1a4eb632552f6944baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ball-red.obj using Guid(d7f5236a2279e1a4eb632552f6944baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb8f82b60cc365c16fa7dd6d4739939') in 0.069837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Objects/MiniGolfKit/club-blue.obj
+  artifactKey: Guid(70d2e6007d75b684a924d5996206a264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/club-blue.obj using Guid(70d2e6007d75b684a924d5996206a264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5a55e0792548e8c96d48a9effe39ac') in 0.049960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Objects/MiniGolfKit/block.obj
+  artifactKey: Guid(197e5170d86dd3346bef20aa365d1331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/block.obj using Guid(197e5170d86dd3346bef20aa365d1331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c3a68b8d63e46baa58e689c1033fa7') in 0.064486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Objects/MiniGolfKit/ball-blue.obj
+  artifactKey: Guid(f40bf700306bc934f8ca939fef07fb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ball-blue.obj using Guid(f40bf700306bc934f8ca939fef07fb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450c31e2df898f896149f8db0fbd8606') in 0.051197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Objects/MiniGolfKit/bump-down.obj
+  artifactKey: Guid(b266377deaffedb49b9824865ee6a241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/bump-down.obj using Guid(b266377deaffedb49b9824865ee6a241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94edf7cc5e1a40d277cfb12f5a0da0d6') in 0.062885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Objects/MiniGolfKit/castle.mtl
+  artifactKey: Guid(672913ea1b716314591db2424f74305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/castle.mtl using Guid(672913ea1b716314591db2424f74305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e1208e8a65dbf51fa1d765f1b76dd2') in 0.013241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Objects/mesa1.obj
+  artifactKey: Guid(2d03f2bdd282cc647aaf61c9489ff2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/mesa1.obj using Guid(2d03f2bdd282cc647aaf61c9489ff2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a302ecf680c91651481e5e76aacc8e9d') in 0.045719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Objects/MiniGolfKit/bump.obj
+  artifactKey: Guid(bbd0f5ee1da8d8f40863c6f3844cfa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/bump.obj using Guid(bbd0f5ee1da8d8f40863c6f3844cfa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1dc4ab96794b30f36abf2326b81f39') in 0.048411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Objects/MiniGolfKit/club-green.obj
+  artifactKey: Guid(5ca3f64a39406cc46a8b7f5f8461b545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/club-green.obj using Guid(5ca3f64a39406cc46a8b7f5f8461b545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d70a480277cb7e2a391627cd420158') in 0.064183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Objects/MiniGolfKit
+  artifactKey: Guid(425484ea8066b2248b0cf9a4688e9c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit using Guid(425484ea8066b2248b0cf9a4688e9c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a723abf8eda64b9f033d5d3bece3412c') in 0.026577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Objects/MiniGolfKit/ball-green.obj
+  artifactKey: Guid(6ace9a3b4962bc14a9d7fcf9a486c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ball-green.obj using Guid(6ace9a3b4962bc14a9d7fcf9a486c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccfbc1a9dfc762bec52a0bab8b99705') in 0.052593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Objects/MiniGolfKit/bump-down-walls.obj
+  artifactKey: Guid(4927e7ee9c617994e9494f39d7638abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/bump-down-walls.obj using Guid(4927e7ee9c617994e9494f39d7638abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0c4acdabfe43ab3fc8dc9e5b4aa5b1') in 0.051428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Objects/MiniGolfKit/bump-walls.obj
+  artifactKey: Guid(3fe3b7b7563b5bc43800572a9faae0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/bump-walls.obj using Guid(3fe3b7b7563b5bc43800572a9faae0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fa983159397334434151c42be7f510') in 0.046575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Objects/MiniGolfKit/club-red.obj
+  artifactKey: Guid(674624ae3d8d36f4d9cfdfc627dfe706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/club-red.obj using Guid(674624ae3d8d36f4d9cfdfc627dfe706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93be1203903fbdf5848ad2b835545345') in 0.046577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.147056 seconds.
+  path: Assets/Objects/MiniGolfKit/corner.obj
+  artifactKey: Guid(b36d1f86a73fb8941bae580345287b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/corner.obj using Guid(b36d1f86a73fb8941bae580345287b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992d1c9e21b0fc0ac4c559b28f71a9f9') in 0.124869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Objects/MiniGolfKit/crest.obj
+  artifactKey: Guid(9ce39a62d998da342b9e13a0eb0409cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/crest.obj using Guid(9ce39a62d998da342b9e13a0eb0409cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0758e648bb0631237e0c1ae5dcc79153') in 0.052622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.300107 seconds.
+  path: Assets/Objects/MiniGolfKit/end.obj
+  artifactKey: Guid(6bed9eebb1d0ecc49ae775481264a538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/end.obj using Guid(6bed9eebb1d0ecc49ae775481264a538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cda0c2ddcf6c66b4eff2e8e806b366a') in 0.098535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Objects/MiniGolfKit/flag-green.obj
+  artifactKey: Guid(19f785f76d18e7241be277d09d57175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/flag-green.obj using Guid(19f785f76d18e7241be277d09d57175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba634b7f2ff0bbaced8919d850520fa') in 0.095771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Objects/MiniGolfKit/hill-round.obj
+  artifactKey: Guid(92f33cb6f9dc76f47b014b22e670868b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/hill-round.obj using Guid(92f33cb6f9dc76f47b014b22e670868b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d747232354c9ae8f70445c07067d551') in 0.048814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Objects/MiniGolfKit/gap.obj
+  artifactKey: Guid(f6b6c44020e78064389d8e4c0ef32907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/gap.obj using Guid(f6b6c44020e78064389d8e4c0ef32907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea767735eb3b7519c5f4f682aa865c98') in 0.146304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Objects/MiniGolfKit/narrow-round.obj
+  artifactKey: Guid(f63f0af673fc2504c8b881e032bbc1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/narrow-round.obj using Guid(f63f0af673fc2504c8b881e032bbc1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3f007fefce67bb7ae004749a000280') in 0.048983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Objects/MiniGolfKit/open.obj
+  artifactKey: Guid(8145c1d664a293048be36e1e327a4bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/open.obj using Guid(8145c1d664a293048be36e1e327a4bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1404530d0c1ccd1c60c4f82cdfbcc0') in 0.047677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Objects/MiniGolfKit/narrow-square.obj
+  artifactKey: Guid(4f46256c3282d9a43bdeb5a76328cea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/narrow-square.obj using Guid(4f46256c3282d9a43bdeb5a76328cea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15289b0e6af762744ab7619573e4ad93') in 0.067580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Objects/MiniGolfKit/ramp-a.obj
+  artifactKey: Guid(c28e9d41762ec734392391373f7b95ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ramp-a.obj using Guid(c28e9d41762ec734392391373f7b95ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f252ae903f04a9808331ca852cf87bc1') in 0.051620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Objects/MiniGolfKit/obstacle-block.obj
+  artifactKey: Guid(eddb20d58ef7d0749b90796e4c10115b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/obstacle-block.obj using Guid(eddb20d58ef7d0749b90796e4c10115b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6067e4e6a19fb9ef98a96af9782ac7') in 0.061127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objects/MiniGolfKit/narrow-block.obj
+  artifactKey: Guid(0274cc1676324164cb9a5e7f01feb43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/narrow-block.obj using Guid(0274cc1676324164cb9a5e7f01feb43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207045e787e308a751d113d8947286df') in 0.063420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Objects/MiniGolfKit/hole-open.obj
+  artifactKey: Guid(bca7574dfc186734aad5b614fbc57392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/hole-open.obj using Guid(bca7574dfc186734aad5b614fbc57392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea930e4edca59f58a0ca6d62f22f91f0') in 0.052243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objects/MiniGolfKit/hole-round.obj
+  artifactKey: Guid(7cd7485aa5984f046b91d4c5574ca1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/hole-round.obj using Guid(7cd7485aa5984f046b91d4c5574ca1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd90f004e250e2354bd1156a9896eb2') in 0.054474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objects/MiniGolfKit/hill-corner.obj
+  artifactKey: Guid(7b6d675fb92903642952ceab3b671491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/hill-corner.obj using Guid(7b6d675fb92903642952ceab3b671491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5264e78c16ce504dc9773618b21824') in 0.051545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/MiniGolfKit/flag-red.obj
+  artifactKey: Guid(a5f79f9530e3fc149ad4ab7b74fc2e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/flag-red.obj using Guid(a5f79f9530e3fc149ad4ab7b74fc2e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ee148e390cd7d29663519f9a436892') in 0.056314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Objects/MiniGolfKit/inner-corner.obj
+  artifactKey: Guid(bf5bc8d6aca1f414494e357cf06fd0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/inner-corner.obj using Guid(bf5bc8d6aca1f414494e357cf06fd0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e63c662cb17cfc25a2691b7bb65891e') in 0.051263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Objects/MiniGolfKit/obstacle-diamond.obj
+  artifactKey: Guid(5a29731db1e9f0148bee4c0e34f4364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/obstacle-diamond.obj using Guid(5a29731db1e9f0148bee4c0e34f4364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509f775fe30186d2bd84eb8379eb5391') in 0.050086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Objects/MiniGolfKit/obstacle-triangle.obj
+  artifactKey: Guid(e0727d8b626659f4c99ecc56148f4e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/obstacle-triangle.obj using Guid(e0727d8b626659f4c99ecc56148f4e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43fc6041dafb910a9a499217f7aa4d6') in 0.061120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Objects/MiniGolfKit/hole-square.obj
+  artifactKey: Guid(0dfe11bdd0c53d54aafeb041a9e207eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/hole-square.obj using Guid(0dfe11bdd0c53d54aafeb041a9e207eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6095d2e4e752d8baf7504f2d406dde') in 0.069519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Objects/MiniGolfKit/hill-square.obj
+  artifactKey: Guid(a7ef508605b5b5b4dab3ff7d3c19b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/hill-square.obj using Guid(a7ef508605b5b5b4dab3ff7d3c19b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d56c6723ca447023f3b5fc8d780bac5') in 0.048796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Objects/MiniGolfKit/flag-blue.obj
+  artifactKey: Guid(75839e41ff528074696aa33242cfa931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/flag-blue.obj using Guid(75839e41ff528074696aa33242cfa931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32092c69fb8f79d249705857c89595c') in 0.052644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.649579 seconds.
+  path: Assets/Objects/MiniGolfKit/ramp-b.obj
+  artifactKey: Guid(433e042095f144d4fa8ff835982ce982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ramp-b.obj using Guid(433e042095f144d4fa8ff835982ce982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a949a2c65acc31934d6c3db8c83ad5') in 0.042335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Objects/MiniGolfKit/ramp-c.obj
+  artifactKey: Guid(f83d1236ba9c1d94e850388342835655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ramp-c.obj using Guid(f83d1236ba9c1d94e850388342835655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f9b1048ca67798fff235a99a6b02e4') in 0.054489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Objects/MiniGolfKit/ramp-d.obj
+  artifactKey: Guid(19d022207811dce4885fc4c880b4a326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ramp-d.obj using Guid(19d022207811dce4885fc4c880b4a326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217f4321607c7c4fb938b35201c91487') in 0.060151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Objects/MiniGolfKit/ramp-large.obj
+  artifactKey: Guid(f078fe678b3dbc449b19f6684f94dd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ramp-large.obj using Guid(f078fe678b3dbc449b19f6684f94dd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4045d8e3d45a359473e4c844242d1a') in 0.053308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objects/MiniGolfKit/ramp-sharp.obj
+  artifactKey: Guid(623506deba9b6f140b4a9d27006999f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ramp-sharp.obj using Guid(623506deba9b6f140b4a9d27006999f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd14b2e8774845adabdf99dfc22b6b5') in 0.048795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/MiniGolfKit/ramp-side.obj
+  artifactKey: Guid(b7507bd3c07f1f648b7fe97f040f0e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ramp-side.obj using Guid(b7507bd3c07f1f648b7fe97f040f0e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e0cd2da31f64235f1c294cbae725ad') in 0.052575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objects/MiniGolfKit/ramp-square.obj
+  artifactKey: Guid(463c0e3eb0227974ba7ec95dc3a77c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ramp-square.obj using Guid(463c0e3eb0227974ba7ec95dc3a77c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146158bc0a3c4755a48f86ede9510698') in 0.049449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objects/MiniGolfKit/ramp-large-side.obj
+  artifactKey: Guid(53534f7915874d540b2665226a646fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ramp-large-side.obj using Guid(53534f7915874d540b2665226a646fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1462a20e89271553c72d60bbcb17f9') in 0.050592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Objects/MiniGolfKit/ramp.obj
+  artifactKey: Guid(ad2252b8ae588944a884dedb0c1e4a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ramp.obj using Guid(ad2252b8ae588944a884dedb0c1e4a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caceac99890dc99328b0ac2814d27fa') in 0.045138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.407596 seconds.
+  path: Assets/Objects/MiniGolfKit/ball-red.mtl
+  artifactKey: Guid(8e254596af320a940bcea114baef37e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/ball-red.mtl using Guid(8e254596af320a940bcea114baef37e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df633fa5959cb64d4ecef140c8c669df') in 0.006704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.319030 seconds.
+  path: Assets/Objects/MiniGolfKit/block.mtl
+  artifactKey: Guid(db3c2652b67b4b04eb2b1388608beb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/block.mtl using Guid(db3c2652b67b4b04eb2b1388608beb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8976aa8de737f91b1f7d664fbe440d') in 0.006790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.994376 seconds.
+  path: Assets/Objects/MiniGolfKit/round-corner-a.obj
+  artifactKey: Guid(a238f7bba1c0e3d4983af8b599ac1fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/round-corner-a.obj using Guid(a238f7bba1c0e3d4983af8b599ac1fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a57d4e67cba6239c51b8e2f5e0ed9a7') in 0.040133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Objects/MiniGolfKit/round-large-corner-open.obj
+  artifactKey: Guid(67df16d5f4f51fa4aa3c35891aff8a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/round-large-corner-open.obj using Guid(67df16d5f4f51fa4aa3c35891aff8a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8347422c52df3e707311d7a117ca5b16') in 0.063689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Objects/MiniGolfKit/round-corner-b.obj
+  artifactKey: Guid(495e1425a59b2a242b77310a73d0b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/round-corner-b.obj using Guid(495e1425a59b2a242b77310a73d0b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace2d2bbedc90a1860854bf25baf5ee8') in 0.074195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Objects/MiniGolfKit/round-corner-c.obj
+  artifactKey: Guid(2d698c5bce0ff0b479ae3a5ab9a62e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/round-corner-c.obj using Guid(2d698c5bce0ff0b479ae3a5ab9a62e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee6603cbd1dcd2d4a3a98fe9ceb1e63') in 0.098840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objects/MiniGolfKit/round-large-corner.obj
+  artifactKey: Guid(5891f064b5b34254c83185baee2af689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/round-large-corner.obj using Guid(5891f064b5b34254c83185baee2af689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2587bd43cd007e9d1a006d3cd415decb') in 0.064250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033328 seconds.
+  path: Assets/Objects/MiniGolfKit/side.obj
+  artifactKey: Guid(02e7e2f4a0a7be240bd9f862abd7ed0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/side.obj using Guid(02e7e2f4a0a7be240bd9f862abd7ed0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c9ce54e0a7f66a88992c389ce1805f') in 0.062676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/MiniGolfKit/square-corner-a.obj
+  artifactKey: Guid(83bea25a566363246903c52ac50cc99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/square-corner-a.obj using Guid(83bea25a566363246903c52ac50cc99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc27ca5504d7029b66fd42315f327779') in 0.065724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/MiniGolfKit/tunnel-narrow.obj
+  artifactKey: Guid(d0429e43479d91747bc2b25c3e16f4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/tunnel-narrow.obj using Guid(d0429e43479d91747bc2b25c3e16f4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a0388dde0bc04ee548b6734faf1bcc') in 0.063510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Objects/MiniGolfKit/tunnel-wide.obj
+  artifactKey: Guid(a03d850caecb56640b9d288c6d19b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/tunnel-wide.obj using Guid(a03d850caecb56640b9d288c6d19b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28225db9277e83985d001c9d6dc843ae') in 0.069777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Objects/MiniGolfKit/start.obj
+  artifactKey: Guid(763c2984af8f0874e85dff9bf7dec175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/start.obj using Guid(763c2984af8f0874e85dff9bf7dec175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6113cf36bec638ddfeca674fc554d8') in 0.064950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Objects/MiniGolfKit/split-walls-to-open.obj
+  artifactKey: Guid(7a8a143fd0c71a14187c1f9ec334593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/split-walls-to-open.obj using Guid(7a8a143fd0c71a14187c1f9ec334593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fee4f972ed0d6bc7034beb68d13a4c') in 0.050355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Objects/MiniGolfKit/skew-large-corner.obj
+  artifactKey: Guid(1cd957c44efa62d499b34790ad5eb189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/skew-large-corner.obj using Guid(1cd957c44efa62d499b34790ad5eb189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9151cb0d270a93d0ab0d093334c8a7e4') in 0.054613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Objects/MiniGolfKit/walls-to-open.obj
+  artifactKey: Guid(529c18a132c0f294ab1d1fa6e7852ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/walls-to-open.obj using Guid(529c18a132c0f294ab1d1fa6e7852ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d418ea50a27ea78d47a1d9d47636471') in 0.057465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objects/MiniGolfKit/supports-bottom.obj
+  artifactKey: Guid(2e2df7fb5b923424785b440072b1eae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/supports-bottom.obj using Guid(2e2df7fb5b923424785b440072b1eae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaa17aad8c555968efd72783de9872e') in 0.077882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Objects/MiniGolfKit/skew-corner.obj
+  artifactKey: Guid(cc7f393a425464449944878e27633e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/skew-corner.obj using Guid(cc7f393a425464449944878e27633e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7701ddcb7db0483a7fe2edec617eb436') in 0.055670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objects/MiniGolfKit/wall-left.obj
+  artifactKey: Guid(62463a14dee72894f82f604e2c65cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/wall-left.obj using Guid(62463a14dee72894f82f604e2c65cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd9fb01669d88de29c35a3101e2181a') in 0.059173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Objects/MiniGolfKit/split-t.obj
+  artifactKey: Guid(4f3130744b960424bb7a9cfd4b466e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/split-t.obj using Guid(4f3130744b960424bb7a9cfd4b466e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8a959d79386c5952f0658e10b85ff1') in 0.066902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objects/MiniGolfKit/skew-large-corner-open.obj
+  artifactKey: Guid(011fcf996a815fb41bad3dd83e5fd8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/skew-large-corner-open.obj using Guid(011fcf996a815fb41bad3dd83e5fd8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a4740efdc51a4b41d16cbc665976f9') in 0.074718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Objects/MiniGolfKit/split-start.obj
+  artifactKey: Guid(f4f9c883c46d180448a97655510afa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/split-start.obj using Guid(f4f9c883c46d180448a97655510afa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c039388b3de8b8d331fdb9d1aea45234') in 0.063828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Objects/MiniGolfKit/tunnel-double.obj
+  artifactKey: Guid(af3e223559957f844997b5a3cb63197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/tunnel-double.obj using Guid(af3e223559957f844997b5a3cb63197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00a1af742d5238eca12a77fb195fa57') in 0.062953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Objects/MiniGolfKit/support-bottom.obj
+  artifactKey: Guid(7e977cdae8e967e4eae3e1e1ed0862fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/support-bottom.obj using Guid(7e977cdae8e967e4eae3e1e1ed0862fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd000aa54ba7f6989f7da7e759e7da31') in 0.064933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Objects/MiniGolfKit/split.obj
+  artifactKey: Guid(e48bc08db2d28d34f94690157066caea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/split.obj using Guid(e48bc08db2d28d34f94690157066caea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55d1a5f2c7c94c6a10c9e434498e455') in 0.050838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Objects/MiniGolfKit/supports.obj
+  artifactKey: Guid(d6d9f97ca2a82414bbce3a4ec83a044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/supports.obj using Guid(d6d9f97ca2a82414bbce3a4ec83a044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8369ed078202dc7207108edee0b4f93') in 0.048684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Objects/MiniGolfKit/windmill.obj
+  artifactKey: Guid(03a33b1e8d55f9340ba3b4922982fc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/windmill.obj using Guid(03a33b1e8d55f9340ba3b4922982fc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09b9d755f2f437186fcd64ff072453e') in 0.073370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Objects/MiniGolfKit/straight.obj
+  artifactKey: Guid(74dcd6d5bf375874985fc4cf3a4ab769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/straight.obj using Guid(74dcd6d5bf375874985fc4cf3a4ab769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d08f9f088d5bf9a13d419fcd777c43b') in 0.060467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Objects/MiniGolfKit/wall-right.obj
+  artifactKey: Guid(37e1a2856ca66c945b2cb7b6bde2ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/wall-right.obj using Guid(37e1a2856ca66c945b2cb7b6bde2ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e461e59b978ffcc15b33fd22d41d1829') in 0.048076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objects/MiniGolfKit/support.obj
+  artifactKey: Guid(95619ca9a2975d74594ecf86b153a9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/MiniGolfKit/support.obj using Guid(95619ca9a2975d74594ecf86b153a9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef68abd69090e1ccb6f0a13ea3a89d12') in 0.062722 seconds 
