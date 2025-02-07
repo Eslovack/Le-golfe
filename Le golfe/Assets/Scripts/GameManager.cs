@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager gm;
-    public Text textTacadas;
-    public Text textPar;
+    public TMP_Text textTacadas;
+    public TMP_Text textPar;
     public int tacadas;
     public int par;
     private int recorde;
@@ -19,8 +20,13 @@ public class GameManager : MonoBehaviour
             gm = this.gameObject.GetComponent<GameManager>();
 
         tacadas = 0;
-        textTacadas.text = "Tacadas: 0";
-        textPar.text = "Par: " + par;
+        //textTacadas.text = "Tacadas: 0";
+        //textPar.text = "Par: " + par;
+    }
+
+    public void fimPartida()
+    {
+        Debug.Log("OI");
     }
 
     // Update is called once per frame
